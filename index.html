@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Bestiário do Hollow Knight</title>
+  <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+  <header>
+    <a href="#">
+      <img src="./src/imagens/Hollow-Knight-Logo-Branca.png" alt="hollowknightlogo" class="logo" />
+    </a>
+    
+    <img src="./src/imagens/Bestiario-Titulo.png" alt="titulo" class="titulo"/>
+    <!--<h1>Bestiário</h1>-->
+
+
+    <button id="botao-alterar-tema">
+      <img src="./src/imagens/Amuleto-Branco.png" alt="Amuleto-Branco" class="imagem-botao" />
+    </button>
+  </header>
+
+
+  <div id="menu-botoes">
+      <button class="city-button Dirtmouth" onclick="filterCreatures('Dirtmouth')">Dirtmouth</button>
+      <button class="city-button Caminho-Verde" onclick="filterCreatures('Caminho-Verde')">Caminho Verde</button>
+      <button class="city-button" onclick="filterCreatures('Cidade 3')">Cidade 3</button>
+      <button class="city-button" onclick="filterCreatures('Cidade 3')">Cidade 3</button>
+      <button class="city-button" onclick="filterCreatures('Cidade 3')">Cidade 3</button>
+      <button class="city-button" onclick="filterCreatures('Cidade 3')">Cidade 3</button>
+      <button class="city-button" onclick="filterCreatures('Cidade 3')">Cidade 3</button>
+      <button class="city-button" onclick="filterCreatures('Cidade 3')">Cidade 3</button>
+      <button class="city-button" onclick="filterCreatures('Cidade 3')">Cidade 3</button>
+      <button class="city-button" onclick="filterCreatures('Cidade 3')">Cidade 3</button>
+      <button class="city-button" onclick="filterCreatures('Cidade 3')">Cidade 3</button>
+      <button class="city-button" onclick="filterCreatures('Cidade 3')">Cidade 3</button>
+      <button class="city-button" onclick="filterCreatures('Cidade 3')">Cidade 3</button>
+      <button class="city-button" onclick="filterCreatures('Cidade 3')">Cidade 3</button>
+      <button class="city-button" onclick="filterCreatures('Cidade 3')">Cidade 3</button>
+      <button class="city-button" onclick="filterCreatures('Todos')">Todos</button>
+  </div>
+
+  
+  <ul id="creature-list">
+    <li class="creature-item" data-city="Cidade 1">
+      <img src="imagem-criatura-1.jpg" alt="Criatura 1">
+      <div class="creature-name">Criatura 1</div>
+      <div class="creature-city">(Cidade 1)</div>
+    </li>
+    <li class="creature-item" data-city="Cidade 1">
+      <img src="imagem-criatura-2.jpg" alt="Criatura 2">
+      <div class="creature-name">Criatura 2</div>
+      <div class="creature-city">(Cidade 1)</div>
+    </li>
+    <li class="creature-item" data-city="Cidade 2">
+      <img src="imagem-criatura-3.jpg" alt="Criatura 3">
+      <div class="creature-name">Criatura 3</div>
+      <div class="creature-city">(Cidade 2)</div>
+    </li>
+    <li class="creature-item" data-city="Cidade 3">
+      <img src="imagem-criatura-4.jpg" alt="Criatura 4">
+      <div class="creature-name">Criatura 4</div>
+      <div class="creature-city">(Cidade 3)</div>
+
+    </li>
+    <li class="creature-item" data-city="Dirtmouth">
+      <img src="https://i.pinimg.com/originals/01/cd/25/01cd254dd02ee736a65b8fa17e60f0c2.gif" alt="Criatura 5">
+      <div class="creature-name">Criatura 5</div>
+      <div class="creature-city">(Cidade 3)</div>
+    </li>
+  </ul>
+  
+  <script>
+    function filterCreatures(city) {
+      var creatureItems = document.getElementsByClassName('creature-item');
+      
+      for (var i = 0; i < creatureItems.length; i++) {
+        var item = creatureItems[i];
+        var itemCity = item.getAttribute('data-city');
+        
+        if (itemCity === city || city === 'Todos') {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      }
+    }
+  </script>
+</body>
+</html>

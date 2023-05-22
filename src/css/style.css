@@ -1,0 +1,117 @@
+body {
+  background-color: #1d1d1d;
+  color: #ffffff;
+  font-family: Trajan Pro Regular;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+header{
+  display: flex;
+  /*flex-direction: column;*/
+  justify-content: space-between;
+  padding: 40px 20px;
+}
+
+header .logo{ /*Estilizando classes*/
+  width: 170px;
+  transition: 0.2s ease-in-out;
+}
+
+header .titulo{
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  /*padding: 40px 20px;*/
+}
+
+header .imagem-botao{ /*Estilizando classes*/
+  width: 60px;
+  transition: 0.2s ease-in-out;
+}
+
+header #botao-alterar-tema{ /*Estilizando IDs*/
+  background: none;
+  border: none;
+}
+
+header .logo:hover,
+header .imagem-botao:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+#menu-botoes{
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.city-button {
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #575757;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.Dirtmouth{
+  background-color: #5c503c;
+}
+
+.Caminho-Verde{
+  background-color: #4d6f50;
+}
+
+.city-button:hover {
+  background-color: #777777;
+}
+
+
+#creature-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.creature-item {
+  margin: 10px;
+  width: 200px;
+  background-color: #343434;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.creature-item img {
+  width: 150px;
+  height: 150px;
+  /*border-radius: 50%;*/
+  margin-bottom: 10px;
+}
+
+.creature-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.creature-city {
+  font-size: 14px;
+  color: #888888;
+}
