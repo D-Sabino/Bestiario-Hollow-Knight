@@ -20,16 +20,12 @@ header .logo{ /*Estilizando classes*/
 
 header .titulo{
   text-align: center;
-}
-
-h1 {
-  text-align: center;
-  font-size: 32px;
-  /*padding: 40px 20px;*/
+  width: 250px;
+  height: 40px;
 }
 
 header .imagem-botao{ /*Estilizando classes*/
-  width: 60px;
+  width: 50px;
   transition: 0.2s ease-in-out;
 }
 
