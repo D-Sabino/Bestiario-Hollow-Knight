@@ -9,7 +9,11 @@ body {
 .container-header{ /* Area que contem a Logo - Titulo - Botão (Cabeçalho) */
   display: flex;
   justify-content: space-between;
-  padding: 20px 0px 20px 0px;
+  padding: 20px 0px 0px 0px;
+}
+
+.logo-header{
+  width: 40%
 }
 
 header .logo-Hollow-Knight{ /* Logo do jogo Hollow Knight */
@@ -17,59 +21,20 @@ header .logo-Hollow-Knight{ /* Logo do jogo Hollow Knight */
   transition: 0.2s ease-in-out;
 }
 
-
-
-.retangulo{
-  background-color: yellow;
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 0px 20px 0px;
+.titulo-header{
+  width: 20%
 }
 
-.quadrado1{
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  border: 1px solid black;
+.botao-header{
+  width: 40%
 }
 
-.quadrado2{
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  border: 1px solid black;
-}
-
-.quadrado3{
-  width: 100px;
-  height: 100px;
-  background-color: red;
-  border: 1px solid black;
-}
-
-/*
-header{
-  display: flex;
-  justify-content: space-between;
-  padding: 40px 0px 0px 0px;
-}
-
-header .logo{
-  width: 170px;
-  transition: 0.2s ease-in-out;
-}
-
-header .titulo{
-  list-style-type: none;
-  padding: 0px 105px 0px 0px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-header .imagem-botao{
+header .imagem-botao{ 
   width: 50px;
   transition: 0.2s ease-in-out;
+  position: absolute;
+  right: 50px;
+  top: 20px;
 }
 
 header #botao-alterar-tema{
@@ -77,16 +42,14 @@ header #botao-alterar-tema{
   border: none;
 }
 
-header .logo:hover,
 header .imagem-botao:hover{
     transform: scale(1.05);
     cursor: pointer;
 }
-*/
 
 #divisoria{
   list-style-type: none;
-  padding: 20px;
+  padding: 0px 0px 10px 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -102,7 +65,7 @@ header .imagem-botao:hover{
 
 .city-button {
   margin: 5px;
-  padding: 10px 20px;
+  padding: 10px;
   background-color: #575757;
   border: none;
   border-radius: 20px;
@@ -113,12 +76,64 @@ header .imagem-botao:hover{
   transition: background-color 0.3s;
 }
 
-.Dirtmouth{
-  background-color: #5c503c;
+.A-Colmeia{
+  background-color: #afa56f;
+}
+
+.Bacia-Antiga{
+  background-color: #959595;
+}
+
+.Borda-do-Reino{
+  background-color: #79766d;
 }
 
 .Caminho-Verde{
-  background-color: #4d6f50;
+  background-color: #85917f;
+}
+
+.Canion-da-Nevoa{
+  background-color: #ad9da9;
+}
+
+.Cidade-das-Lagrimas{
+  background-color: #808eb2;
+}
+
+.Dirtmouth{
+  background-color: #6e6e6e;
+}
+
+.Encruzilhada-Esquecida{
+  background-color: #677a86;
+}
+
+.Ermos-Fungicos{
+  background-color: #b4b7a4;
+}
+
+.Hidrovia-Real{
+  background-color: #74a9ac;
+}
+
+.Jardins-da-Rainha{
+  background-color: #819987;
+}
+
+.Ninho-Profundo{
+  background-color: #8d98a5;
+}
+
+.Penhascos-Uivantes{
+  background-color: #918ba6;
+}
+
+.Pico-de-Cristal{
+  background-color: #7d6f7c;
+}
+
+.Terra-do-Descanso{
+  background-color: #9e8b7c;
 }
 
 .city-button:hover {

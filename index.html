@@ -4,15 +4,11 @@
   <meta charset="UTF-8">
   <title>Bestiário do Hollow Knight</title>
   <link rel="stylesheet" href="./src/css/style.css">
+
+  <script src="./src/js/filtro.js"></script> <!-- Chamada do script do filtro, em JS -->
 </head>
 <body>
-  <header>
-    <div class="retangulo">
-      <div class="quadrado1"></div>
-      <div class="quadrado2"></div>
-      <div class="quadrado3"></div>
-    </div>
-    
+  <header>   
     <div class="container-header">
       <div class="logo-header">
         <img src="./src/imagens/Hollow-Knight-Logo-Branca.png" alt="Hollow-Knight-Logo" class="logo-Hollow-Knight" />
@@ -28,22 +24,6 @@
         </button>
       </div>
     </div>
-
-    <!--
-    <div id="logo">
-      <a href="#">
-        <img src="./src/imagens/Hollow-Knight-Logo-Branca.png" alt="hollowknightlogo" class="logo" />
-      </a>
-    </div>
-
-    <div id="titulo">
-      <img src="./src/imagens/Bestiario-Titulo-Branco.png" alt="titulo" class="titulo"/>
-    </div>
-    
-    <button id="botao-alterar-tema">
-      <img src="./src/imagens/Amuleto-Branco.png" alt="Amuleto-Branco" class="imagem-botao" />
-    </button>
-    -->
   </header>
 
   <div id="divisoria">
@@ -53,29 +33,30 @@
   
   <div id="menu-botoes">
     <button class="city-button" onclick="filterCreatures('Todos')">Todos</button>
-      <button class="city-button Dirtmouth" onclick="filterCreatures('Dirtmouth')">Dirtmouth</button>
-      <button class="city-button Caminho-Verde" onclick="filterCreatures('Caminho-Verde')">Caminho Verde</button>
-      <button class="city-button Penhascos-Uivantes" onclick="filterCreatures('Penhascos-Uivantes')">Penhascos Uivantes</button>
-      <button class="city-button Pico-de-Cristal" onclick="filterCreatures('Pico-de-Cristal')">Pico de Cristal</button>
-      <button class="city-button Encruzilhada-Esquecida" onclick="filterCreatures('Encruzilhada-Esquecida')">Encruzilhada Esquecida</button>
-      <button class="city-button Terra-do-Descanso" onclick="filterCreatures('Terra-do-Descanso')">Terra do Descanso</button>
-      <button class="city-button Jardins-da-Rainha" onclick="filterCreatures('Jardins-da-Rainha')">Jardins da Rainha</button>
-      <button class="city-button Canion-da-Nevoa" onclick="filterCreatures('Canion-da-Nevoa')">Cânion da Névoa</button>
-      <button class="city-button Ermos-Fungicos" onclick="filterCreatures('Ermos-Fungicos')">Ermos Fúngicos</button>
-      <button class="city-button Cidade-das-Lagrimas" onclick="filterCreatures('Cidade-das-Lagrimas')">Cidade das Lágrimas</button>
-      <button class="city-button Borda-do-Reino" onclick="filterCreatures('Borda-do-Reino')">Borda do Reino</button>
-      <button class="city-button Ninho-Profundo" onclick="filterCreatures('Ninho-Profundo')">Ninho Profundo</button>
-      <button class="city-button Hidrovia-Real" onclick="filterCreatures('Hidrovia-Real')">Hidrovia Real</button>
-      <button class="city-button A-Colmeia" onclick="filterCreatures('A-Colmeia')">A Colmeia</button>
-      <button class="city-button Bacia-Antiga" onclick="filterCreatures('Bacia-Antiga')">Bacia Antiga</button>
+    <button class="city-button A-Colmeia" onclick="filterCreatures('A-Colmeia')">A Colmeia</button>
+    <button class="city-button Bacia-Antiga" onclick="filterCreatures('Bacia-Antiga')">Bacia Antiga</button>
+    <button class="city-button Borda-do-Reino" onclick="filterCreatures('Borda-do-Reino')">Borda do Reino</button>
+    <button class="city-button Caminho-Verde" onclick="filterCreatures('Caminho-Verde')">Caminho Verde</button>
+    <button class="city-button Canion-da-Nevoa" onclick="filterCreatures('Canion-da-Nevoa')">Cânion da Névoa</button>
+    <button class="city-button Cidade-das-Lagrimas" onclick="filterCreatures('Cidade-das-Lagrimas')">Cidade das Lágrimas</button>
+    <button class="city-button Dirtmouth" onclick="filterCreatures('Dirtmouth')">Dirtmouth</button>
+    <button class="city-button Encruzilhada-Esquecida" onclick="filterCreatures('Encruzilhada-Esquecida')">Encruzilhada Esquecida</button>
+    <button class="city-button Ermos-Fungicos" onclick="filterCreatures('Ermos-Fungicos')">Ermos Fúngicos</button>
+    <button class="city-button Hidrovia-Real" onclick="filterCreatures('Hidrovia-Real')">Hidrovia Real</button>
+    <button class="city-button Jardins-da-Rainha" onclick="filterCreatures('Jardins-da-Rainha')">Jardins da Rainha</button>
+    <button class="city-button Ninho-Profundo" onclick="filterCreatures('Ninho-Profundo')">Ninho Profundo</button>
+    <button class="city-button Penhascos-Uivantes" onclick="filterCreatures('Penhascos-Uivantes')">Penhascos Uivantes</button>
+    <button class="city-button Pico-de-Cristal" onclick="filterCreatures('Pico-de-Cristal')">Pico de Cristal</button>
+    <button class="city-button Terra-do-Descanso" onclick="filterCreatures('Terra-do-Descanso')">Terra do Descanso</button>
+    <button class="city-button Mapa">Mapa Completo</button>
   </div>
 
   
   <ul id="creature-list">
-    <li class="creature-item" data-city="Cidade 1">
+    <li class="creature-item Caminho-Verde Dirtmouth">
       <img src="imagem-criatura-1.jpg" alt="Criatura 1">
       <div class="creature-name">Criatura 1</div>
-      <div class="creature-city">(Cidade 1)</div>
+      <div class="creature-city">(Caminho-Verde, Jardins-da-Rainha)</div>
     </li>
     <li class="creature-item" data-city="Cidade 1">
       <img src="imagem-criatura-2.jpg" alt="Criatura 2">
@@ -87,7 +68,7 @@
       <div class="creature-name">Criatura 3</div>
       <div class="creature-city">(Cidade 2)</div>
     </li>
-    <li class="creature-item" data-city="Cidade 3">
+    <li class="creature-item" data-city="Dirtmouth">
       <img src="imagem-criatura-4.jpg" alt="Criatura 4">
       <div class="creature-name">Criatura 4</div>
       <div class="creature-city">(Cidade 3)</div>
@@ -100,21 +81,5 @@
     </li>
   </ul>
   
-  <script>
-    function filterCreatures(city) {
-      var creatureItems = document.getElementsByClassName('creature-item');
-      
-      for (var i = 0; i < creatureItems.length; i++) {
-        var item = creatureItems[i];
-        var itemCity = item.getAttribute('data-city');
-        
-        if (itemCity === city || city === 'Todos') {
-          item.style.display = 'block';
-        } else {
-          item.style.display = 'none';
-        }
-      }
-    }
-  </script>
 </body>
 </html>
