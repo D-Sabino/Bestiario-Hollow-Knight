@@ -165,7 +165,7 @@ header .imagem-botao:hover{
   margin: 10px;
   width: 200px;
   background-color: #343434;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -181,23 +181,20 @@ header .imagem-botao:hover{
 
 .Moldura-Arabesco-Branco img {
   position: absolute;
-  top: -13px;
+  top: -15px;
   left: -15px;
-  width: 100%;
+  width: 110%;
   height: auto;
 }
 
 .Moldura-Arabesco-Branco-Invertido {
-  position: relative;
-  width: 100%;
-  transform: scaleY(-1);
+  position: absolute;
+  width: 110%;
+  transform: scaleY(-1) scaleX(-1) translateY(47%) translateX(-5%);
 }
 
 .Moldura-Arabesco-Branco-Invertido img {
   position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
   height: auto;
 }
 
@@ -214,31 +211,56 @@ header .imagem-botao:hover{
 }
 
 .creature-name {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
   margin-bottom: 5px;
 }
 
 .creature-city {
-  font-size: 14px;
+  font-size: 10px;
   color: #888888;
   margin-bottom: 5px;
+}
+
+.moldura-olhos {
+  padding: 10px 0px 10px 0px
+}
+
+.moldura-olhos img{
+  width: 95%;
 }
 
 .descricao {
   margin: 5px 0;
 }
 
-.divisa {
-  width: 80%;
-  border-bottom: 1px solid #ffffff;
-  margin: 10px auto;
-}
-
 /* Estilos CSS para o texto da descrição */
 .descricao p {
   font-size: 14px;
 }
+
+
+.divisa {
+  margin-top: 10px;
+  width: 100%;
+  height: 1px;
+  background-color: #888888;
+  position: relative;
+}
+
+
+.descricao-longa {
+  max-height: 80px;
+  overflow-y: scroll;
+  font-size: 14px;
+  padding-right: 10px;
+}
+
+
+
+
+
+
 /*
 .Moldura-Arabesco-Branco {
   position: absolute;
