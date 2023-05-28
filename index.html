@@ -7,6 +7,28 @@
 </head>
 <body>
   <header>
+    <div class="retangulo">
+      <div class="quadrado1"></div>
+      <div class="quadrado2"></div>
+      <div class="quadrado3"></div>
+    </div>
+    
+    <div class="container-header">
+      <div class="logo-header">
+        <img src="./src/imagens/Hollow-Knight-Logo-Branca.png" alt="Hollow-Knight-Logo" class="logo-Hollow-Knight" />
+      </div>
+
+      <div class="titulo-header">
+        <img src="./src/imagens/Bestiario-Titulo-Branco.png" alt="titulo-Bestiario" class="titulo-Bestiario"/>
+      </div>
+
+      <div class="botao-header">
+        <button id="botao-alterar-tema">
+          <img src="./src/imagens/Amuleto-Branco.png" alt="Amuleto-Branco" class="imagem-botao" />
+        </button>
+      </div>
+    </div>
+
     <!--
     <div id="logo">
       <a href="#">
@@ -22,37 +44,30 @@
       <img src="./src/imagens/Amuleto-Branco.png" alt="Amuleto-Branco" class="imagem-botao" />
     </button>
     -->
-
-    <div class="retangulo">
-      <div class="quadrado1"></div>
-      <div class="quadrado2"></div>
-      <div class="quadrado3"></div>
-    </div>
-    
   </header>
 
   <div id="divisoria">
     <img src="./src/imagens/Moldura-Carapaca-Branca.png"/>
   </div>
   
-
+  
   <div id="menu-botoes">
+    <button class="city-button" onclick="filterCreatures('Todos')">Todos</button>
       <button class="city-button Dirtmouth" onclick="filterCreatures('Dirtmouth')">Dirtmouth</button>
       <button class="city-button Caminho-Verde" onclick="filterCreatures('Caminho-Verde')">Caminho Verde</button>
-      <button class="city-button" onclick="filterCreatures('Cidade 3')">Cidade 3</button>
-      <button class="city-button" onclick="filterCreatures('Cidade 3')">Cidade 3</button>
-      <button class="city-button" onclick="filterCreatures('Cidade 3')">Cidade 3</button>
-      <button class="city-button" onclick="filterCreatures('Cidade 3')">Cidade 3</button>
-      <button class="city-button" onclick="filterCreatures('Cidade 3')">Cidade 3</button>
-      <button class="city-button" onclick="filterCreatures('Cidade 3')">Cidade 3</button>
-      <button class="city-button" onclick="filterCreatures('Cidade 3')">Cidade 3</button>
-      <button class="city-button" onclick="filterCreatures('Cidade 3')">Cidade 3</button>
-      <button class="city-button" onclick="filterCreatures('Cidade 3')">Cidade 3</button>
-      <button class="city-button" onclick="filterCreatures('Cidade 3')">Cidade 3</button>
-      <button class="city-button" onclick="filterCreatures('Cidade 3')">Cidade 3</button>
-      <button class="city-button" onclick="filterCreatures('Cidade 3')">Cidade 3</button>
-      <button class="city-button" onclick="filterCreatures('Cidade 3')">Cidade 3</button>
-      <button class="city-button" onclick="filterCreatures('Todos')">Todos</button>
+      <button class="city-button Penhascos-Uivantes" onclick="filterCreatures('Penhascos-Uivantes')">Penhascos Uivantes</button>
+      <button class="city-button Pico-de-Cristal" onclick="filterCreatures('Pico-de-Cristal')">Pico de Cristal</button>
+      <button class="city-button Encruzilhada-Esquecida" onclick="filterCreatures('Encruzilhada-Esquecida')">Encruzilhada Esquecida</button>
+      <button class="city-button Terra-do-Descanso" onclick="filterCreatures('Terra-do-Descanso')">Terra do Descanso</button>
+      <button class="city-button Jardins-da-Rainha" onclick="filterCreatures('Jardins-da-Rainha')">Jardins da Rainha</button>
+      <button class="city-button Canion-da-Nevoa" onclick="filterCreatures('Canion-da-Nevoa')">Cânion da Névoa</button>
+      <button class="city-button Ermos-Fungicos" onclick="filterCreatures('Ermos-Fungicos')">Ermos Fúngicos</button>
+      <button class="city-button Cidade-das-Lagrimas" onclick="filterCreatures('Cidade-das-Lagrimas')">Cidade das Lágrimas</button>
+      <button class="city-button Borda-do-Reino" onclick="filterCreatures('Borda-do-Reino')">Borda do Reino</button>
+      <button class="city-button Ninho-Profundo" onclick="filterCreatures('Ninho-Profundo')">Ninho Profundo</button>
+      <button class="city-button Hidrovia-Real" onclick="filterCreatures('Hidrovia-Real')">Hidrovia Real</button>
+      <button class="city-button A-Colmeia" onclick="filterCreatures('A-Colmeia')">A Colmeia</button>
+      <button class="city-button Bacia-Antiga" onclick="filterCreatures('Bacia-Antiga')">Bacia Antiga</button>
   </div>
 
   
