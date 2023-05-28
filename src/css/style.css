@@ -49,12 +49,13 @@ header .imagem-botao:hover{
 }
 /* --------------------------------------------------------- FIM DO HEADER */
 
-#divisoria{
+#divisoria-invertida{
   list-style-type: none;
-  padding: 0px 0px 10px 0px;
+  padding: 10px 0px 10px 0px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  transform: scaleY(-1);
 }
 
 #menu-botoes{
@@ -142,6 +143,14 @@ header .imagem-botao:hover{
 
 .city-button:hover {
   background-color: #777777;
+}
+
+#divisoria{
+  list-style-type: none;
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 #creature-list {
