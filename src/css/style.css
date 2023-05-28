@@ -20,6 +20,7 @@ body {
 header .logo-Hollow-Knight{ 
   width: 170px;  
   transition: 0.2s ease-in-out;
+  padding: 0px 0px 0px 20px;
 }
 
 .titulo-header{
@@ -239,7 +240,6 @@ header .imagem-botao:hover{
   font-size: 14px;
 }
 
-
 .divisa {
   margin-top: 10px;
   width: 100%;
@@ -247,7 +247,6 @@ header .imagem-botao:hover{
   background-color: #888888;
   position: relative;
 }
-
 
 .descricao-longa {
   max-height: 80px;
