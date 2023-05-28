@@ -6,17 +6,18 @@ body {
   margin: 0 auto;
 }
 
-.container-header{ /* Area que contem a Logo - Titulo - Botão (Cabeçalho) */
+/* HEADER ------------------------------------------------------------------ */
+.container-header{ 
   display: flex;
   justify-content: space-between;
   padding: 20px 0px 0px 0px;
 }
 
 .logo-header{
-  width: 40%
+  width: 40%;
 }
 
-header .logo-Hollow-Knight{ /* Logo do jogo Hollow Knight */
+header .logo-Hollow-Knight{ 
   width: 170px;  
   transition: 0.2s ease-in-out;
 }
@@ -46,6 +47,7 @@ header .imagem-botao:hover{
     transform: scale(1.05);
     cursor: pointer;
 }
+/* --------------------------------------------------------- FIM DO HEADER */
 
 #divisoria{
   list-style-type: none;
@@ -63,6 +65,7 @@ header .imagem-botao:hover{
   justify-content: center;
 }
 
+/* Botoes das cidades */
 .city-button {
   margin: 5px;
   padding: 10px;
@@ -76,6 +79,7 @@ header .imagem-botao:hover{
   transition: background-color 0.3s;
 }
 
+/* Cores dos botoes das cidades */
 .A-Colmeia{
   background-color: #afa56f;
 }
@@ -140,7 +144,6 @@ header .imagem-botao:hover{
   background-color: #777777;
 }
 
-
 #creature-list {
   list-style-type: none;
   padding: 0;
@@ -153,18 +156,140 @@ header .imagem-botao:hover{
   margin: 10px;
   width: 200px;
   background-color: #343434;
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+  position: relative;
+}
+
+.Moldura-Arabesco-Branco {
+  position: relative;
+  width: 100%;
+}
+
+.Moldura-Arabesco-Branco img {
+  position: absolute;
+  top: -13px;
+  left: -15px;
+  width: 100%;
+  height: auto;
+}
+
+.Moldura-Arabesco-Branco-Invertido {
+  position: relative;
+  width: 100%;
+  transform: scaleY(-1);
+}
+
+.Moldura-Arabesco-Branco-Invertido img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+}
+
+.Imagem-Creature-List {
+  position: relative;
+  width: 100%;
+}
+
+.Imagem-Creature-List img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.creature-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.creature-city {
+  font-size: 14px;
+  color: #888888;
+  margin-bottom: 5px;
+}
+
+.descricao {
+  margin: 5px 0;
+}
+
+.divisa {
+  width: 80%;
+  border-bottom: 1px solid #ffffff;
+  margin: 10px auto;
+}
+
+/* Estilos CSS para o texto da descrição */
+.descricao p {
+  font-size: 14px;
+}
+/*
+.Moldura-Arabesco-Branco {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+.Moldura-Arabesco-Branco-Invertido {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 1;
+  transform: scaleY(-1) scaleX(-1);
+}
+
+.A-Radiancia {
+  margin-top: 30px;
+}
+
+.creature-name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.creature-city {
+  font-size: 16px;
+  color: #888888;
+  margin-top: 10px;
+}
+
+.descricao {
+  margin-top: 20px;
+}
+
+.divisa {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+  color: #888888;
+}
+
+.descricao-texto {
+  margin-top: 20px;
+}
+*/
+/*
+.Moldura-Arabesco-Branco{
+  width: 50px;
+  height: 25px;
 }
 
 .creature-item img {
   width: 150px;
   height: 150px;
-  /*border-radius: 50%;*/
   margin-bottom: 10px;
 }
 
@@ -177,3 +302,4 @@ header .imagem-botao:hover{
   font-size: 14px;
   color: #888888;
 }
+*/

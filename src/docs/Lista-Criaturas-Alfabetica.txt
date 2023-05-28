@@ -1,0 +1,170 @@
+Escreva a lista abaixo em ordem alfabética: 
+A Radiância*
+Ácaro Cristalizado
+Aluba
+Ambloom
+Ancião Hu
+Aranha Caçadora
+Aranha Filhote
+Armadura Alada
+Armadura Real
+Aspid Caçador
+Aspid Filhote
+Aspid Mãe
+Aspid Primitiva
+Balão Fúngico
+Balão Infectado
+Baldur
+Baldur Afiado
+Baldur Ancião
+Batedor Musgoso
+Batedor Musgoso Imenso
+Bubélula
+Caçador de Cristal
+Carcaça Chifruda
+Carcaça Colmeia
+Carcaça Covarde
+Carcaça Cristalizada
+Carcaça Cuspidora
+Carcaça Deslumbrante
+Carcaça Elegante
+Carcaça Errante
+Carcaça Espinhosa
+Carcaça Fúngica
+Carcaça Guardiã
+Carcaça Guerreira
+Carcaça Gulosa
+Carcaça Mineradora
+Carcaça Saltadora
+Carcaça Sentinela
+Carcaça Sentinela Grandiosa
+Carcaça Sepultada
+Carcaça Valente
+Carcaça Violenta
+Cavador Incubador
+Cavaleiro da Colmeia
+Cavaleiro Musgoso
+Cavaleiro Sentinela
+Centopéia Rouba-Cadáveres
+Couraçado de Cristal
+Crawlid
+Cria Fúngica
+Defensor Branco*
+Defensor do Esterco
+Devorador de Tolos
+Devoto Espreitador
+Domador de Deuses
+Duranda
+Durandoo
+Erro
+Escavador
+Espreitadora 
+Falso Cavaleiro
+Filhote da Colmeia
+Filhote Fúngico
+Flukefey
+Flukemarm
+Flukemon
+Flukemunga
+Galien
+Germe de Luz
+Germe de Vida
+Goam
+Gorb
+Grande Sábio do Ferrão Sly*
+Grande Saltador
+Grimm*
+Guardião Cristalizado
+Guardião da Colmeia
+Guerreiro da Colmeia
+Guerreiro das Almas
+Guerreiro Fúngico
+Gulka
+Hornet
+Hwurmp
+Ídolo Vazio**
+Inseto Reparador*
+Irmão
+Irmãos Oro e Mato*
+Loodle
+Loodle Letal
+Lorde Traidor
+Lordes Louva-a-Deus
+Louco
+Louva-a-Deus Guerreiro
+Louva-a-Deus Jovem
+Louva-a-Deus Petra
+Louva-a-Deus Traidor
+Lumélula Elétrica
+Manipulador de Alma
+Manipulador Voltaico
+Marca do Caçador
+Markoth
+Marmu
+Máscara Desgastada**
+Mawlek Incubador
+Mawlek Menor
+Mawlurk
+Mestre da Pintura Sheo*
+Mestre das Almas
+Mestre Grimmário*
+Mímico de Larva
+Mosca
+Mosca Mãe 
+Mosca Mascarada
+Mosca Volátil
+Mosquito
+Mosquito Encouraçado
+Musgoso
+Musgoso Voador
+Musgoso Volátil
+Nosk
+Novato Grimmário*
+O Cavaleiro Vazio*
+O Colecionador
+Obble
+Obble de Guerra
+Oblobbles
+Ogro Fúngico
+Ooma
+Pálida
+Pequena Tecelã
+Pesadelo Grimmário*
+Pilflip
+Príncipe Cinza Zote*
+Rastejador de Cristal
+Rastejador Sombrio
+Rastejante Musgoso
+Receptáculo Puro*
+Receptáculo Quebrado
+Rei 
+Rei do Pesadelo Grimm*
+Saco Viscoso
+Saltador
+Selo de Ligação**
+Sem Olhos
+Sentinela Alada
+Sentinela Lanceira
+Sentinela Pesada
+Servo Real
+Sombra
+Sporg
+Tentáculos do Vazio
+Tiktik
+Tolo Alado
+Tolo Pesado
+Tolo Protegido
+Tolo Robusto
+Uoma
+Uumuu
+Vagabundo Musgoso
+Vengemosca
+Vengemosca
+Vengemosca Furiosa
+Ventremosca
+Verme
+Xero
+Zote o Poderoso
+Zoutinho Alado*
+Zoutinho Saltitante*
+Zoutinho Volátil*
