@@ -1,5 +1,3 @@
-Escreva a lista abaixo em ordem alfabética: 
-A Radiância*
 Ácaro Cristalizado
 Aluba
 Ambloom
@@ -132,6 +130,7 @@ Pequena Tecelã
 Pesadelo Grimmário*
 Pilflip
 Príncipe Cinza Zote*
+Radiância*
 Rastejador de Cristal
 Rastejador Sombrio
 Rastejante Musgoso
